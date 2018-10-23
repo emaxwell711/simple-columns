@@ -1,3 +1,23 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Lucidia Console; monospace;
+    }
+    .col-row > * {
+      background: gray;
+      padding: 1em;
+      box-sizing: border-box;
+      outline: 2px solid white;
+    }
+    .container {
+      max-width: 75em;
+      margin: 48px auto;
+    }
+
 .col-row {
   display: grid;
   grid-auto-flow: row;
